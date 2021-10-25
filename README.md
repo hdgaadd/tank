@@ -1,5 +1,3 @@
-------
-
 # 项目字段设计
 
 ```
@@ -42,8 +40,6 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 
 
-------
-
 # 数据库设计
 
 | 表                         | 字段 |          |                     |         |                                                              |      |
@@ -65,8 +61,6 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 
 
-------
-
 # 音乐播放：
 
 - **a.jsp没有声音**			应该是项目jsp不能读取项目外部的文件，应把文件引进来，理由：b.html在项目外可以播放而在项目内却不能
@@ -83,8 +77,6 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
   
 
-------
-
 # 项目指导：
 
 ## 改用vue
@@ -97,7 +89,7 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 ## 使用vue
 
-> 直接后端，采用swagger测试，前台音乐播放使用html模板，后台管理使用vue模板          `补充说明补充说明补充说明`
+> 直接后端，采用swagger测试，前台音乐播放使用html模板，后台管理使用vue模板						 `补充说明补充说明补充说明`
 >
 > 前台音乐播放使用vue因为相比html、jsp、thymeleaf方便与后端交互，同时jsp、thymeleaf不能播放音乐，html太简陋      
 
@@ -109,8 +101,6 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 
 
-
-------
 
 # 前端vue：
 
@@ -171,25 +161,17 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 
 
-------
-
 # swagger√：                 
 
 
-
-------
 
 # 日志：
 
 
 
-------
-
 # 定时任务：
 
 
-
-------
 
 # 设计模式：
 
@@ -199,13 +181,9 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 
 
-------
-
 # Cloud：
 
 
-
-------
 
 # Redis：
 

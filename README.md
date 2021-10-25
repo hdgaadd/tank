@@ -105,24 +105,24 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 ## vue.js是什么：
 
-vue解决了html+css+js的诟病
-vue是一款JavaScript框架，建立在html+css+javascript基础上的框架，编译后依然是同左这些基础元素
-vue解决了什么问题：https://blog.csdn.net/wxl1555/article/details/79964818 
-其中vue.js与node.js不是同一等级的，node.js是javascript的运行环境，旨在让javascript脱离浏览器运行，node.js相当于前端服务器
+> vue解决了html+css+js的诟病
+> vue是一款JavaScript框架，建立在html+css+javascript基础上的框架，编译后依然是同左这些基础元素
+> vue解决了什么问题：https://blog.csdn.net/wxl1555/article/details/79964818 
+> 其中vue.js与node.js不是同一等级的，node.js是javascript的运行环境，旨在让javascript脱离浏览器运行，node.js相当于前端服务器
 
 ## nuxt.js是什么：
 
-nuxt提高了页面响应速度，提升用户体验
-nuxt.js是一个基于vue.js的轻量级应用框架，可用来创建服务端渲染(SSR)应用提高页面的响应速度，相当于spring一样的框架
+`nuxt提高了页面响应速度，提升用户体验`
+`nuxt.js是一个基于vue.js的轻量级应用框架，可用来创建服务端渲染(SSR)应用提高页面的响应速度，相当于spring一样的框架`
 
-前端渲染：页面获取服务端数据后，再在前端进行数据填充渲染
-服务端渲染：页面获取服务端数据后，在服务端进行数据填充渲染后，再返回给前端
-npx create-nuxt-app或使用使用模板start-template都是创建最基础的nuxt模板，而express等模板是最基础的nuxt模板再封装
+`前端渲染：页面获取服务端数据后，再在前端进行数据填充渲染`
+`服务端渲染：页面获取服务端数据后，在服务端进行数据填充渲染后，再返回给前端`
+`npx create-nuxt-app或使用使用模板start-template都是创建最基础的nuxt模板，而express等模板是最基础的nuxt模板再封装`
 
 ## UI框架是什么：
 
-vue-ui框架指基于vue框架上开发的界面框架			UI：User Interface用户界面，UI设计指界面美化设计
-我们可以在vue框架nuxt上安装vue ui框架：Element-Ui、Vuetify、Quasar
+> vue-ui框架指基于vue框架上开发的界面框架			UI：User Interface用户界面，UI设计指界面美化设计
+> 我们可以在vue框架nuxt上安装vue ui框架：Element-Ui、Vuetify、Quasar
 
 ## 项目指导：
 

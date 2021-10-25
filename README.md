@@ -85,15 +85,23 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 
 # 项目指导：
 
-改用vue：1. 得解决上面繁杂问题、2.guli可以使用到、3.vue样式新模板多
+## 改用vue
 
-不用vue因为得学很多vue知识、不用jsp因为没有相应后台与音乐模板页面、不用thymeleaf因为没有任何模板页面，而是使用最普通的javaweb工程，因为有html音乐播放模板
-直接后端，采用swagger测试，前台音乐播放使用html模板，后台管理使用vue模板
-前台音乐播放使用vue因为相比html、jsp、thymeleaf方便与后端交互，同时jsp、thymeleaf不能播放音乐，html太简陋
+> 1.得解决上面繁杂问题、2.guli可以使用到、3.vue样式新模板多
+
+## 不用vue
+
+> 因为得学很多vue知识、不用jsp因为没有相应后台与音乐模板页面、不用thymeleaf因为没有任何模板页面，而是使用最普通的javaweb工程，因为有html音乐播放模板
+
+## 使用vue
+
+> 直接后端，采用swagger测试，前台音乐播放使用html模板，后台管理使用vue模板
+> 前台音乐播放使用vue因为相比html、jsp、thymeleaf方便与后端交互，同时jsp、thymeleaf不能播放音乐，html太简陋
 
 ##                   vue播放音乐：
 
-黑马程序员实现vue获取网易云音乐资源进行播放：https://www.bilibili.com/video/BV12J411m7MG?p=32
+> 黑马程序员实现vue获取网易云音乐资源进行播放：https://www.bilibili.com/video/BV12J411m7MG?p=32
+>
 
 
 
@@ -108,7 +116,9 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 > vue解决了html+css+js的诟病
 >
 > vue是一款JavaScript框架，建立在html+css+javascript基础上的框架，编译后依然是同左这些基础元素
+>
 > vue解决了什么问题：https://blog.csdn.net/wxl1555/article/details/79964818 
+>
 > 其中vue.js与node.js不是同一等级的，node.js是javascript的运行环境，旨在让javascript脱离浏览器运行，node.js相当于前端服务器
 
 ## nuxt.js是什么：
@@ -118,39 +128,45 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 > nuxt.js是一个基于vue.js的轻量级应用框架，可用来创建服务端渲染(SSR)应用提高页面的响应速度，相当于spring一样的框架
 >
 > 前端渲染：页面获取服务端数据后，再在前端进行数据填充渲染
+>
 > 服务端渲染：页面获取服务端数据后，在服务端进行数据填充渲染后，再返回给前端
+>
 > npx create-nuxt-app或使用使用模板start-template都是创建最基础的nuxt模板，而express等模板是最基础的nuxt模板再封装
 
 ## UI框架是什么：
 
-> vue-ui框架指基于vue框架上开发的界面框架			UI：User Interface用户界面，UI设计指界面美化设计
+
+
+> vue-ui框架指基于vue框架上开发的界面框架			 *UI：User Interface用户界面，UI设计指界面美化设计*
 >
 > 我们可以在vue框架nuxt上安装vue ui框架：Element-Ui、Vuetify、Quasar
 
 ## 项目指导：
 
-nuxt是一个基于vue的轻量级应用框架，其中vue解决了html+css+js的诟病，nuxt方便了前后端分离开发，而学习vue只是学习vue页面代码的语法，使用nuxt方便与后端交互，直接使用vue相当于从一个.vue文件开始搭建，应该学习的是vue框架nuxt
+> nuxt是一个基于vue的轻量级应用框架，其中vue解决了html+css+js的诟病，nuxt方便了前后端分离开发，而学习vue只是学习vue页面代码的语法，使用nuxt方便与后端交互，直接使用vue相当于从一个.vue文件开始搭建，应该学习的是vue框架nuxt
+>
 
 ## 后台模板选择要求：
 
-必须基于vue因为方便前后端分离，其中使用什么vue框架或vue-ui框架无所谓
-
-后台模板暂定使用guli后台模板vue-admin-template，其中有教学Document
-后台模板都是基于一定语言与框架开发的模板，ForE： guli后台模板vue-admin-template使用了语言vue+ui框架element-ui              
+> 必须基于vue因为方便前后端分离，其中使用什么vue框架或vue-ui框架无所谓
+>
+> 后台模板暂定使用guli后台模板vue-admin-template，其中有教学Document
+>
+> 后台模板都是基于一定语言与框架开发的模板，ForE： guli后台模板vue-admin-template使用了语言vue+ui框架element-ui              
 
 ## vue项目怎么和springboot项目交互：
 
-utils/request.js保存nginx的端口，api/.js创建各种方法访问后端的url接口，nginx+api=http://localhost:9001+/eduservice/coursefront/getFrontCourseInfo
-在页面上使用<script>，import文件api/.js，访问页面就会触发<script>使用***.js的方法触发访问后端url获得数据
+> utils/request.js保存nginx的端口，api/.js创建各种方法访问后端的url接口，nginx+api=http://localhost:9001+/eduservice/coursefront/getFrontCourseInfo
+> 在页面上使用<script>，import文件api/.js，访问页面就会触发<script>使用***.js的方法触发访问后端url获得数据
 
 ## 使用vue搭建还是nuxt搭建还是nuxt+express?
 
-使用nuxt框架搭建前后端交互，引入ui框架修饰
+> 使用nuxt框架搭建前后端交互，引入ui框架修饰
+>
 
 ## vue页面怎么写资源的相对位置
 
-​              
-​               
+
 
 ------
 

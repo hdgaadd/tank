@@ -25,18 +25,20 @@ Beast Wars
 
 thyemleaf是模板引擎，旨在代替JSP，而本item找寻的是模块框架类似于AdmainLTE帮我们备好了页面模板
 
-`//jsp模板`
-`AdminLTE：`
-`LTEDocument：https://adminlte.io/docs/3.1//index.html`
-`AdminLTE使用：编译后，把静态资源放入，修改相应的模板页面     baidu：https://www.pianshen.com/article/68441412388/`
-`Gentelella：Gentelella模块不用npm?`
-`https://github.com/ColorlibHQ/gentelella`
-`Document：https://colorlibhq.github.io/gentelella/`
-`//vue模板`
-`ng2-admin：`
-`后台管理模板：https://github.com/akveo/ngx-admin              //启动脚本命令：npm start`
-`Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-kit#install-based-on-starter-kit`
-`但是该模板使用的语言是angular`
+```
+//jsp模板
+AdminLTE：
+LTEDocument：https://adminlte.io/docs/3.1//index.html
+AdminLTE使用：编译后，把静态资源放入，修改相应的模板页面     baidu：https://www.pianshen.com/article/68441412388/
+Gentelella：Gentelella模块不用npm?
+https://github.com/ColorlibHQ/gentelella
+Document：https://colorlibhq.github.io/gentelella/
+//vue模板
+ng2-admin：
+后台管理模板：https://github.com/akveo/ngx-admin              //启动脚本命令：npm start
+Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-kit#install-based-on-starter-kit
+但是该模板使用的语言是angular
+```
 
 
 

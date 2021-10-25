@@ -114,6 +114,7 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 ## nuxt.js是什么：
 
 > nuxt提高了页面响应速度，提升用户体验
+>
 > nuxt.js是一个基于vue.js的轻量级应用框架，可用来创建服务端渲染(SSR)应用提高页面的响应速度，相当于spring一样的框架
 >
 > 前端渲染：页面获取服务端数据后，再在前端进行数据填充渲染
@@ -123,6 +124,7 @@ Document：https://akveo.github.io/nebular/docs/guides/install-based-on-starter-
 ## UI框架是什么：
 
 > vue-ui框架指基于vue框架上开发的界面框架			UI：User Interface用户界面，UI设计指界面美化设计
+>
 > 我们可以在vue框架nuxt上安装vue ui框架：Element-Ui、Vuetify、Quasar
 
 ## 项目指导：
